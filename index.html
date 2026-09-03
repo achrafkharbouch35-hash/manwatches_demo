@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOIR TIME | Montres Homme</title>
+<meta name="description" content="NOIR TIME — Montres homme élégantes, modernes et intemporelles. Livraison partout au Maroc.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="topbar">LIVRAISON PARTOUT AU MAROC • PAIEMENT À LA LIVRAISON</div>
+  <nav class="navbar">
+    <a href="#home" class="logo"><strong>NOIR</strong><span>TIME</span></a>
+    <div class="navlinks">
+      <a href="#home">Accueil</a>
+      <a href="#shop">Collection</a>
+      <a href="#about">Notre histoire</a>
+      <a href="#instagram">Instagram</a>
+    </div>
+    <div class="navactions">
+      <button id="searchBtn" aria-label="Recherche">⌕</button>
+      <button id="cartBtn" aria-label="Panier">🛒 <b id="cartCount">0</b></button>
+      <a id="instagramLink" href="#" target="_blank">Instagram</a>
+    </div>
+    <button class="mobileBtn" id="mobileBtn">☰</button>
+  </nav>
+  <div class="mobileNav" id="mobileNav">
+    <a href="#home">Accueil</a>
+    <a href="#shop">Collection</a>
+    <a href="#about">Notre histoire</a>
+    <a href="#instagram">Instagram</a>
+  </div>
+</header>
+
+<div class="searchOverlay" id="searchOverlay">
+  <button id="closeSearch">×</button>
+  <div>
+    <p>RECHERCHE</p>
+    <input id="searchInput" type="text" placeholder="Rechercher une montre...">
+  </div>
+</div>
+
+<main>
+<section class="hero" id="home">
+  <div class="heroContent">
+    <p class="eyebrow">MEN'S WATCHES • EST. 2026</p>
+    <h1>Le style se mesure<br>à chaque <em>seconde.</em></h1>
+    <p>Découvrez des montres conçues pour l'homme moderne : élégantes, affirmées et intemporelles.</p>
+    <div class="heroButtons">
+      <a href="#shop" class="btn gold">Découvrir la collection</a>
+      <a href="#" id="heroInstagram" class="btn transparent" target="_blank">Voir Instagram</a>
+    </div>
+  </div>
+  <div class="heroVisual">
+    <div class="heroLabel"><strong>NOIR TIME</strong><span>THE MEN'S COLLECTION</span></div>
+  </div>
+</section>
+
+<section class="statement" id="about">
+  <p class="eyebrow">NOIR TIME</p>
+  <h2>Une montre. Une <em>signature.</em></h2>
+  <p>Des pièces sélectionnées pour compléter votre style, du quotidien aux grandes occasions.</p>
+</section>
+
+<section class="categories">
+  <button data-filter="Tous">TOUTES</button>
+  <button data-filter="Classique">CLASSIQUES</button>
+  <button data-filter="Sport">SPORT</button>
+  <button data-filter="Chronographe">CHRONOGRAPHES</button>
+  <button data-filter="Luxe">LUXE</button>
+</section>
+
+<section class="shop" id="shop">
+  <div class="sectionHead">
+    <div>
+      <p class="eyebrow">THE COLLECTION</p>
+      <h2>Montres homme</h2>
+    </div>
+    <div class="filters">
+      <button class="active" data-filter="Tous">Toutes</button>
+      <button data-filter="Classique">Classiques</button>
+      <button data-filter="Sport">Sport</button>
+      <button data-filter="Chronographe">Chronographes</button>
+      <button data-filter="Luxe">Luxe</button>
+    </div>
+  </div>
+  <div class="products" id="products"></div>
+</section>
+
+<section class="darkBanner">
+  <div class="bannerPhoto"></div>
+  <div class="bannerText">
+    <p class="eyebrow">TIMELESS STYLE</p>
+    <h2>Votre temps.<br><em>Votre caractère.</em></h2>
+    <p>Un design précis. Une présence forte. Une montre qui vous ressemble.</p>
+    <a href="#shop" class="btn gold">Explorer les modèles</a>
+  </div>
+</section>
+
+<section class="benefits">
+  <div><span>01</span><h3>Livraison Maroc</h3><p>Partout au Maroc</p></div>
+  <div><span>02</span><h3>Paiement à la livraison</h3><p>Simple et sécurisé</p></div>
+  <div><span>03</span><h3>Sélection premium</h3><p>Des modèles choisis</p></div>
+  <div><span>04</span><h3>Commande WhatsApp</h3><p>Rapide et pratique</p></div>
+</section>
+
+<section class="instagram" id="instagram">
+  <div class="center">
+    <p class="eyebrow">@NOIR.TIME</p>
+    <h2>Le style continue sur Instagram.</h2>
+    <p>Découvrez nos nouveautés, nos looks et nos inspirations.</p>
+  </div>
+  <div class="instaGrid">
+    <div></div><div></div><div></div><div></div><div></div><div></div>
+  </div>
+  <a id="instagramBottom" href="#" target="_blank" class="btn black">Suivre @noir.time</a>
+</section>
+
+<section class="reviews">
+  <div class="center">
+    <p class="eyebrow">CLIENTS NOIR TIME</p>
+    <h2>Ils en parlent.</h2>
+  </div>
+  <div class="reviewGrid">
+    <article><div>★★★★★</div><p>“Très belle montre, encore plus élégante en vrai. Livraison rapide.”</p><b>— Yassine</b></article>
+    <article><div>★★★★★</div><p>“Le rapport qualité/prix est excellent. Je recommande.”</p><b>— Hamza</b></article>
+    <article><div>★★★★★</div><p>“Commande WhatsApp très simple et service sérieux.”</p><b>— Anas</b></article>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footerBrand">
+    <a href="#home" class="logo"><strong>NOIR</strong><span>TIME</span></a>
+    <p>Le temps. Le style. Le caractère.</p>
+  </div>
+  <div>
+    <h4>BOUTIQUE</h4>
+    <a href="#shop">Collection</a>
+    <a href="#shop">Best-sellers</a>
+    <a href="#shop">Nouveautés</a>
+  </div>
+  <div>
+    <h4>CONTACT</h4>
+    <a id="footerWhatsApp" href="#" target="_blank">WhatsApp</a>
+    <a id="footerInstagram" href="#" target="_blank">Instagram</a>
+  </div>
+  <div class="copyright">© 2026 NOIR TIME — Tous droits réservés.</div>
+</footer>
+
+<div class="modal" id="productModal">
+  <div class="modalBg" id="modalBg"></div>
+  <div class="modalBox">
+    <button class="modalClose" id="modalClose">×</button>
+    <div class="modalImage" id="modalImage"></div>
+    <div class="modalInfo">
+      <p class="eyebrow" id="modalCategory"></p>
+      <h2 id="modalName"></h2>
+      <strong id="modalPrice"></strong>
+      <p id="modalDescription"></p>
+      <div class="quantity">
+        <button id="minus">−</button><span id="quantity">1</span><button id="plus">+</button>
+      </div>
+      <button class="btn black full" id="modalAdd">Ajouter au panier</button>
+      <button class="whatsapp" id="modalOrder">Commander via WhatsApp</button>
+    </div>
+  </div>
+</div>
+
+<div class="cartBg" id="cartBg"></div>
+<aside class="cart" id="cart">
+  <div class="cartHeader"><div><p class="eyebrow">YOUR SELECTION</p><h2>Panier</h2></div><button id="closeCart">×</button></div>
+  <div class="cartItems" id="cartItems"></div>
+  <div class="cartFooter">
+    <div class="total"><span>Total</span><strong id="cartTotal">0 DH</strong></div>
+    <button class="btn black full" id="checkout">Commander via WhatsApp</button>
+    <button class="clear" id="clearCart">Vider le panier</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
